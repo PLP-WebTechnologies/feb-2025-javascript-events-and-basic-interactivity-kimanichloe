@@ -1,0 +1,46 @@
+/* style.css */
+.error {
+    border: 1px solid red;
+}
+
+.warning {
+    border: 1px solid orange;
+}
+
+.secret-style {
+    background-color: purple !important;
+    color: white;
+    transform: scale(1.1);
+}
+
+.long-press-effect {
+    background-color: gold !important;
+    transform: rotate(5deg);
+}
+
+.tab-buttons button {
+    margin-right: 10px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.tab-buttons button.active {
+    background-color: #ccc;
+}
+
+.tab-content {
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+.image-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-image {
+    max-width: 300px;
+    margin-bottom: 10px;
+}

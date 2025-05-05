@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Event Assignment Fun!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>JS Event Fun!</h1>
+
+    <button id="clickMeButton">Click Me</button>
+    <div id="hoverTarget" style="padding: 20px; background-color: #eee;">Hover Over Me</div>
+    <div id="keyPressDisplay"></div>
+
+    <div id="doubleClickTarget" style="padding: 15px; border: 1px solid red;">Double Click Me for a Secret</div>
+    <div id="longPressTarget" style="padding: 15px; border: 1px solid green;">Long Press Me!</div>
+
+    <hr>
+
+    <button id="changeButton">Change Me!</button>
+
+    <div class="image-gallery">
+        <img src="image1.jpg" alt="Image 1" class="gallery-image">
+        <img src="image2.jpg" alt="Image 2" class="gallery-image" style="display: none;">
+        <button id="prevImage">Previous</button>
+        <button id="nextImage">Next</button>
+    </div>
+
+    <div class="tabs">
+        <div class="tab-buttons">
+            <button class="tab-button" data-tab="tab1">Tab 1</button>
+            <button class="tab-button" data-tab="tab2">Tab 2</button>
+        </div>
+        <div id="tab1" class="tab-content">Content for Tab 1</div>
+        <div id="tab2" class="tab-content" style="display: none;">Content for Tab 2</div>
+    </div>
+
+    <div id="animatedElement" style="width: 100px; height: 100px; background-color: orange;">Fade In</div>
+
+    <hr>
+
+    <form id="signupForm">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+            <div id="passwordRules"></div>
+        </div>
+        <button type="submit">Sign Up</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
